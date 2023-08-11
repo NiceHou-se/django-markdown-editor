@@ -128,21 +128,21 @@ fieldset .form-row .main-martor {
 }
 
 /* fix issue: #168 */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   body {
-    color: #fff;
-    background: #121212 !important;
+    color: #121212;
+    background: #fff !important;
   }
 
   h1,
   h3,
   h5 {
-    color: #fff !important;
+    color: #121212 !important;
   }
 
   /* bootstrap */
   .modal-help-guide .modal-content {
-    background: #121212 !important;
+    background: #fff !important;
   }
 
   .modal-help-guide .modal-title {
@@ -153,16 +153,16 @@ fieldset .form-row .main-martor {
 
   .modal-help-guide .table.markdown-reference {
     background: #fff;
-    color: #fff;
+    color: #121212;
   }
 
   /* semantic-ui */
   .modal-help-guide .content {
-    background: #121212 !important;
+    background: #fff !important;
   }
 
   .tab-martor-menu .item,
   .martor-toolbar .ui.basic.buttons .button {
-    color: #fff !important;
+    color: #121212 !important;
   }
 }
